@@ -1,8 +1,6 @@
 # Skill Alexa utilizando Java
 
-## Projeto criado para utilização junto com serviço lambda da AWS
-
-## Passos para utilização:
+## Projeto criado para utilização junto com serviço lambda da AWS, passos para utilização:
 
 1 - Você tem que escrever seu ID de aplicativo da Amazon, na linha 22 da classe "HelloWorldStreamHandler" (Veja como encontra-lo abaixo).
 
