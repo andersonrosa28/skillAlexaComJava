@@ -6,7 +6,7 @@
 
 1 - Você tem que escrever seu ID de aplicativo da Amazon, na linha 22 da classe "HelloWorldStreamHandler" (Veja como encontra-lo abaixo).
 
-2 - Acesse o Amazon Skill Kit Dashboard(https://developer.amazon.com/alexa/console/ask?), crie uma nova Skill, você pode nomeá-la como quiser. Estou chamando de “Hello World”. Na próxima página, selecione o modelo personalizado e clique em criar Skill.
+2 - Acesse o [Amazon Skill Kit Dashboard](https://developer.amazon.com/alexa/console/ask?), crie uma nova Skill, você pode nomeá-la como quiser. Estou chamando de “Hello World”. Na próxima página, selecione o modelo personalizado e clique em criar Skill.
 
 3 - No menu do lado esquerdo, clique em “ EndPoint ” e selecione “ AWS Lambda ARN ”. Isso abrirá um monte de campo, de lá você pode ver o seu ID de habilidade. Copie e cole na classe “ HelloWorldStreamHandler ” no metodo “ withSkillId ”. Mantenha a página Alexa Skill Kit aberta porque precisamos preencher as informações do Lambda mais tarde.
 
@@ -18,7 +18,7 @@
 
 ```HelloAlexa-0.0.1-SNAPSHOT-jar-with-dependencies```
 
-6 - Vá para o Amazon Lambda Console (https://console.aws.amazon.com/lambda/home?region=us-east-1#/create), aqui nomeie sua função como quiser. Selecione “ Java 8 ” como tempo de execução. Para a função, crie uma nova função, insira um nome. Depois disso, clique em Criar Função e isso o levará para a próxima página.
+6 - Vá para o [Amazon Lambda Console](https://console.aws.amazon.com/lambda/home?region=us-east-1#/create), aqui nomeie sua função como quiser. Selecione “ Java 8 ” como tempo de execução. Para a função, crie uma nova função, insira um nome. Depois disso, clique em Criar Função e isso o levará para a próxima página.
 
 7 - No lado esquerdo do Menu, onde diz gatilhos, selecione “ Alexa Skill Kit ”. Agora role um pouco para baixo, ele mostrará um campo de texto que dirá, “ Skill id ”. Aqui, copie e cole o ID da habilidade Alexa, que você pode copiar novamente da página de habilidade Alexa. Depois disso, no canto superior direito, clique em salvar
 
